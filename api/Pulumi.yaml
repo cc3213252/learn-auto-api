@@ -1,0 +1,11 @@
+name: api
+description: A minimal AWS Python Pulumi program
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: /Users/cyd/.pyenv/versions/pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
