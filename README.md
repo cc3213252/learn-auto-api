@@ -1,3 +1,5 @@
+一个stack，通过设置request参数，实现创建lambda函数根据http参数是返回时区还是返回region
+
 pip install -r api/requirements.txt
 
 ## 测试步骤
